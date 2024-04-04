@@ -21,6 +21,7 @@ export const Card = ({ title, image, color, home, tna }: CardProps) => {
           width="48"
           height="48"
           src={`/assets/images/${image}.png`}
+          title={title}
         />
       </a>
       <div style={{ color }} className="text-lg font-bold">
