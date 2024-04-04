@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Billeteras digitales",
+  title: "Billeteras virtuales",
   description:
-    "Una app para conocer las billeteras digitales que más rendimientos generan en Argentina",
+    "Una app para conocer las billeteras virtuales que más rendimientos generan en Argentina",
 };
 
 export default function RootLayout({

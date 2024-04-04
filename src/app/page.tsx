@@ -8,7 +8,7 @@ export default async function Home() {
     <main className="flex flex-col items-center justify-center min-h-screen text-center p-4">
       <h1 className="mt-auto text-4xl font-semibold pb-2">Bienvenido!</h1>
       <h2 className="text-md">
-        Acá podrás comparar las distintas billeteras digitales disponibles en
+        Acá podrás comparar las distintas billeteras virtuales disponibles en
         Argentina que generan rendimientos
       </h2>
 
