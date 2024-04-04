@@ -1,12 +1,8 @@
 import Image from "next/image";
 import { COMPANIES } from "@src/constants/companies";
+import { formatPercentage } from "@src/utils/formatters";
 
 type CardProps = (typeof COMPANIES)[number];
-
-const formatter = new Intl.NumberFormat("es-AR", {
-  style: "percent",
-  maximumFractionDigits: 2,
-});
 
 export const Card = ({ title, image, color, home, tna }: CardProps) => {
   return (
@@ -25,7 +21,7 @@ export const Card = ({ title, image, color, home, tna }: CardProps) => {
         />
       </a>
       <div style={{ color }} className="text-lg font-bold">
-        {tna ? `${formatter.format(tna / 100).replace(/\s/gi, "")}` : "??"}
+        {tna ? formatPercentage(tna) : "??"}
       </div>
     </article>
   );

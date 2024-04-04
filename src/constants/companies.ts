@@ -12,7 +12,7 @@ export const COMPANIES = [
     image: "mercadopago",
     color: "#05B9FF",
     home: "https://www.mercadopago.com.ar",
-    tna: 69.05,
+    tna: 76.2,
     tnaPage: "https://calculadora-mercadopago.com.ar/ganancias",
   },
   {
@@ -20,7 +20,7 @@ export const COMPANIES = [
     image: "naranja",
     color: "#E85212",
     home: "https://www.naranjax.com/",
-    tna: 82,
+    tna: 78,
     tnaPage:
       "https://blog.naranjax.com/proba-la-calculadora-tna-para-ver-cuanto-podes-ganar-con-naranja-x/",
   },
