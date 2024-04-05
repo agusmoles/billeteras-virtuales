@@ -6,9 +6,27 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Billeteras virtuales",
+  applicationName: "Billeteras Virtuales",
+  formatDetection: {
+    telephone: false,
+  },
+  title: {
+    template: "%s - Billeteras Virtuales",
+    default: "Billeteras Virtuales",
+  },
   description:
     "Una app para conocer las billeteras virtuales que más rendimientos generan en Argentina",
+  metadataBase: process.env.VERCEL_URL
+    ? new URL("https://billeterasvirtuales.com.ar/")
+    : new URL(`http://localhost:${process.env.PORT || 3000}`),
+  alternates: {
+    canonical: "https://billeterasvirtuales.com.ar/",
+  },
+  keywords: ["financial", "wallet", "virtual", "billetera", "finanzas"],
+  authors: [{ name: "Agustin Moles", url: "https://agustinmoles.com.ar" }],
+  creator: "Agustin Moles",
+  publisher: "Agustin Moles",
+  robots: "index,follow",
 };
 
 export default function RootLayout({
