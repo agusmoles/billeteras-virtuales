@@ -22,7 +22,7 @@ export default async function Home() {
       </section>
 
       <footer className="mt-auto w-full pt-4 px-4 text-xs text-gray-500">
-        Actualizado al 3 de Abril de 2024
+        Actualizado al 5 de Abril de 2024
         <br />
         Creado por{" "}
         <a

@@ -4,7 +4,7 @@ export const COMPANIES = [
     image: "claro",
     color: "#D23D38",
     home: "https://claropay.com.ar",
-    tna: 67.09,
+    tna: 68.52,
     tnaPage: null,
   },
   {
@@ -12,7 +12,7 @@ export const COMPANIES = [
     image: "mercadopago",
     color: "#05B9FF",
     home: "https://www.mercadopago.com.ar",
-    tna: 76.2,
+    tna: 69.69,
     tnaPage: "https://calculadora-mercadopago.com.ar/ganancias",
   },
   {
@@ -29,7 +29,7 @@ export const COMPANIES = [
     image: "personal",
     color: "#5A56FA",
     home: "https://www.personalpay.com.ar/cuentas-remuneradas",
-    tna: 77,
+    tna: 72,
     tnaPage: null,
   },
   {
@@ -37,7 +37,7 @@ export const COMPANIES = [
     image: "prex",
     color: "#4D2597",
     home: "https://www.prexcard.com.ar/cuenta-remunerada",
-    tna: 71.53,
+    tna: 73.18,
     tnaPage: null,
   },
   {
@@ -45,7 +45,7 @@ export const COMPANIES = [
     image: "supervielle",
     color: "#DE0409",
     home: "https://www.supervielle.com.ar/",
-    tna: 70.09,
+    tna: 71.11,
     tnaPage: null,
   },
   {
@@ -53,7 +53,7 @@ export const COMPANIES = [
     image: "uala",
     color: "#D65A71",
     home: "https://www.uala.com.ar/",
-    tna: 68.08,
+    tna: 68.4,
     tnaPage: null,
   },
   {
@@ -61,7 +61,7 @@ export const COMPANIES = [
     image: "n1u",
     color: "#FF009D",
     home: "https://n1u.app/",
-    tna: 70.05,
+    tna: 71.03,
     tnaPage: null,
   },
   {
@@ -69,7 +69,7 @@ export const COMPANIES = [
     image: "tacataca",
     color: "#02D5B5",
     home: "https://www.taca-taca.com.ar/",
-    tna: 68.51,
+    tna: 68.61,
     tnaPage: null,
   },
   {
@@ -77,7 +77,7 @@ export const COMPANIES = [
     image: "galicia",
     color: "#FA6400",
     home: "https://www.galicia.ar/personas",
-    tna: 67.49,
+    tna: 69.2,
     tnaPage: null,
   },
   {
@@ -85,7 +85,7 @@ export const COMPANIES = [
     image: "astropay",
     color: "#27DEAF",
     home: "https://astropay.com/",
-    tna: 64.37,
+    tna: 65.1,
     tnaPage: null,
   },
 ].sort((a, b) => b.tna - a.tna);
