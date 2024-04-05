@@ -8,14 +8,6 @@
   --background-end-rgb: 245, 245, 245;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -34,4 +26,22 @@ body {
   .full-w-height {
     @apply min-h-[100svh];
   }
+
+  /* @supports (animation-timeline: scroll()) {
+    @keyframes land {
+      0% {
+        opacity: 0;
+        filter: brightness(2);
+        scale: 0.9;
+      }
+    }
+
+    .card {
+      animation-fill-mode: forwards;
+      animation-timing-function: linear;
+      animation-timeline: view();
+      animation-range: entry 0% entry 100%;
+      animation-name: land;
+    }
+  } */
 }

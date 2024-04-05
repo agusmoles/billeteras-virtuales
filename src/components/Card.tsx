@@ -6,7 +6,7 @@ type CardProps = (typeof COMPANIES)[number];
 
 export const Card = ({ title, image, color, home, tna }: CardProps) => {
   return (
-    <article className="relative w-[48.5%] sm:w-32 flex flex-col justify-center items-center gap-4 bg-white px-6 py-4 rounded-xl">
+    <article className="card relative w-[48.5%] sm:w-32 flex flex-col justify-center items-center gap-4 bg-white px-6 py-4 rounded-xl">
       <div
         style={{ backgroundColor: color }}
         className="absolute -z-10 w-full h-full blur-3xl opacity-25"
