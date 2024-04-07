@@ -6,6 +6,8 @@ export const COMPANIES = [
     home: "https://claropay.com.ar",
     tna: 68.52,
     tnaPage: null,
+    disclaimer: null,
+    disclaimerIndex: null,
   },
   {
     title: "MercadoPago",
@@ -14,6 +16,21 @@ export const COMPANIES = [
     home: "https://www.mercadopago.com.ar",
     tna: 69.69,
     tnaPage: "https://calculadora-mercadopago.com.ar/ganancias",
+    disclaimer: (
+      <>
+        Pueden encontrar la TNA actualizada diariamente en la{" "}
+        <a
+          href="https://calculadora-mercadopago.com.ar"
+          target="_blank"
+          rel="noopenner noreferrer"
+          style={{ textDecoration: "underline" }}
+          className="text-blue-500"
+        >
+          Calculadora de MercadoPago
+        </a>
+      </>
+    ),
+    disclaimerIndex: 1,
   },
   {
     title: "NaranjaX",
@@ -23,6 +40,8 @@ export const COMPANIES = [
     tna: 78,
     tnaPage:
       "https://blog.naranjax.com/proba-la-calculadora-tna-para-ver-cuanto-podes-ganar-con-naranja-x/",
+    disclaimer: "Paga rendimientos hasta $300.000",
+    disclaimerIndex: 2,
   },
   {
     title: "Personal",
@@ -31,6 +50,9 @@ export const COMPANIES = [
     home: "https://www.personalpay.com.ar/cuentas-remuneradas",
     tna: 72,
     tnaPage: null,
+    disclaimer:
+      "Es la TNA para el nivel más bajo de la billetera, puede ser mayor según el nivel",
+    disclaimerIndex: 3,
   },
   {
     title: "Prex",
@@ -39,6 +61,8 @@ export const COMPANIES = [
     home: "https://www.prexcard.com.ar/cuenta-remunerada",
     tna: 73.18,
     tnaPage: null,
+    disclaimer: null,
+    disclaimerIndex: null,
   },
   {
     title: "Supervielle",
@@ -47,6 +71,8 @@ export const COMPANIES = [
     home: "https://www.supervielle.com.ar/",
     tna: 71.11,
     tnaPage: null,
+    disclaimer: null,
+    disclaimerIndex: null,
   },
   {
     title: "Uala",
@@ -55,6 +81,8 @@ export const COMPANIES = [
     home: "https://www.uala.com.ar/",
     tna: 68.4,
     tnaPage: null,
+    disclaimer: null,
+    disclaimerIndex: null,
   },
   {
     title: "n1u",
@@ -63,6 +91,8 @@ export const COMPANIES = [
     home: "https://n1u.app/",
     tna: 71.03,
     tnaPage: null,
+    disclaimer: null,
+    disclaimerIndex: null,
   },
   {
     title: "Taca Taca",
@@ -71,6 +101,8 @@ export const COMPANIES = [
     home: "https://www.taca-taca.com.ar/",
     tna: 68.61,
     tnaPage: null,
+    disclaimer: "Sólo disponible en Cordoba",
+    disclaimerIndex: 4,
   },
   {
     title: "Banco Galicia",
@@ -79,6 +111,8 @@ export const COMPANIES = [
     home: "https://www.galicia.ar/personas",
     tna: 69.2,
     tnaPage: null,
+    disclaimer: null,
+    disclaimerIndex: null,
   },
   {
     title: "AstroPay",
@@ -87,5 +121,7 @@ export const COMPANIES = [
     home: "https://astropay.com/",
     tna: 65.1,
     tnaPage: null,
+    disclaimer: null,
+    disclaimerIndex: null,
   },
 ].sort((a, b) => b.tna - a.tna);
