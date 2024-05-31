@@ -16,14 +16,25 @@ export const metadata: Metadata = {
     default: "Billeteras Virtuales",
   },
   description:
-    "Una app para conocer las billeteras virtuales que más rendimientos generan en Argentina",
+    "Una app para conocer las billeteras virtuales que más rendimientos generan en Argentina. Conocé la TNA de Uala, Prex, Supervielle, Taca Taca, Banco Galicia, n1u y más.",
   metadataBase: process.env.VERCEL_URL
     ? new URL("https://billeterasvirtuales.com.ar/")
     : new URL(`http://localhost:${process.env.PORT || 3000}`),
   alternates: {
     canonical: "https://billeterasvirtuales.com.ar/",
   },
-  keywords: ["financial", "wallet", "virtual", "billetera", "finanzas"],
+  keywords: [
+    "financial",
+    "wallet",
+    "virtual",
+    "billetera",
+    "finanzas",
+    "tna",
+    "uala",
+    "prex",
+    "claro pay",
+    "mercadopago",
+  ],
   authors: [{ name: "Agustin Moles", url: "https://agustinmoles.com.ar" }],
   creator: "Agustin Moles",
   publisher: "Agustin Moles",
