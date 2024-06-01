@@ -1,8 +1,8 @@
-import dynamic from "next/dynamic";
+import nextDynamic from "next/dynamic";
 import { Card } from "@src/components/Card";
 import { COMPANIES } from "@src/constants/companies";
 
-const Chart = dynamic(() => import("../components/Chart"), { ssr: false });
+const Chart = nextDynamic(() => import("../components/Chart"), { ssr: false });
 
 export default async function Home() {
   return (
@@ -55,3 +55,5 @@ export default async function Home() {
     </main>
   );
 }
+
+export const dynamic = "force-static";
