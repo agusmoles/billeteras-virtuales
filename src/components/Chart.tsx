@@ -15,7 +15,7 @@ type DailyMoney = {
 const INITIAL_AMOUNT = 10_000;
 const DAYS_TO_CALCULATE = [1, 5, 30, 60, 180, 365] as const;
 
-export const Chart = () => {
+const Chart = () => {
   const [amount, setAmount] = useState(INITIAL_AMOUNT);
 
   const primaryAxis = useMemo<AxisOptions<DailyMoney>>(
@@ -84,3 +84,5 @@ export const Chart = () => {
     </div>
   );
 };
+
+export default Chart;

@@ -1,6 +1,8 @@
+import dynamic from "next/dynamic";
 import { Card } from "@src/components/Card";
-import { Chart } from "@src/components/Chart";
 import { COMPANIES } from "@src/constants/companies";
+
+const Chart = dynamic(() => import("../components/Chart"), { ssr: false });
 
 export default async function Home() {
   return (
