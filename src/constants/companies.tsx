@@ -48,7 +48,7 @@ export const COMPANIES = [
     image: "personal",
     color: "#5A56FA",
     home: "https://www.personalpay.com.ar/cuentas-remuneradas",
-    tna: 6,
+    tna: 36,
     tnaPage: null,
     disclaimer:
       "Es la TNA para el nivel más bajo de la billetera, puede ser mayor según el nivel",
