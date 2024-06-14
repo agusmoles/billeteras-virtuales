@@ -81,8 +81,8 @@ export const COMPANIES = [
     home: "https://www.uala.com.ar/",
     tna: 41,
     tnaPage: null,
-    disclaimer: null,
-    disclaimerIndex: null,
+    disclaimer: "Paga rendimientos con un mínimo de $10.000 y hasta $500.000",
+    disclaimerIndex: 5,
   },
   {
     title: "n1u",
