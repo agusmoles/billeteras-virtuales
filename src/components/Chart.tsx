@@ -12,7 +12,7 @@ type DailyMoney = {
   money: number;
 };
 
-const INITIAL_AMOUNT = 10_000;
+const INITIAL_AMOUNT = 100_000;
 const DAYS_TO_CALCULATE = [1, 5, 30, 60, 180, 365] as const;
 
 const Chart = () => {
