@@ -144,4 +144,14 @@ export const COMPANIES = [
     disclaimer: null,
     disclaimerIndex: null,
   },
+  {
+    title: "Lemon Cash",
+    image: "lemoncash",
+    color: "#01E664",
+    home: "https://lemon.me",
+    tna: 35.46,
+    tnaPage: null,
+    disclaimer: null,
+    disclaimerIndex: null,
+  },
 ].sort((a, b) => b.tna - a.tna);
