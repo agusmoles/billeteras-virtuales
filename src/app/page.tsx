@@ -29,7 +29,7 @@ export default async function Home() {
 
       <footer className="mt-auto w-full pt-4 px-4 text-xs text-gray-500">
         <div className="pt-4 pb-2 leading-5">
-          {COMPANIES.filter((company) => company.disclaimerIndex)
+          {COMPANIES.filter((company) => company.disclaimer)
             .sort((a, b) => (a.disclaimerIndex || 0) - (b.disclaimerIndex || 0))
             .map((company) => (
               <div key={company.title} style={{ color: company.color }}>
