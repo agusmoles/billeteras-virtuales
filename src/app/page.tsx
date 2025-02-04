@@ -39,7 +39,7 @@ export default async function Home() {
         </div>
 
         <div>
-          Actualizado al 25 de Enero de 2025
+          Actualizado al 04 de Febrero de 2025
           <br />
           Creado por{" "}
           <a
