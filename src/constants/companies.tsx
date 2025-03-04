@@ -172,7 +172,8 @@ export const COMPANIES = [
     home: "https://www.bancobica.com.ar/",
     tna: 29.0,
     tnaPage: null,
-    disclaimer: null,
-    disclaimerIndex: null,
+    disclaimer:
+      "Remunera el saldo hasta por $500.000 depositados, luego son 26% desde $500.001 hasta $1.500.000 y, finalmente, 24% desde $1.500.001 hasta $10.000.000",
+    disclaimerIndex: 6,
   },
 ].sort((a, b) => b.tna - a.tna);
