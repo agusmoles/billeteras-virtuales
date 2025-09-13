@@ -44,17 +44,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {process.env.NODE_ENV === "production" && (
-        <>
-          <GoogleAnalytics gaId="G-4TNFHM3H55" />
-          <Script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8386152499302342"
-            crossOrigin="anonymous"
-            strategy="afterInteractive"
-          />
-        </>
-      )}
+      <GoogleAnalytics gaId="G-4TNFHM3H55" />
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8386152499302342"
+        crossOrigin="anonymous"
+        strategy="afterInteractive"
+      />
       <body className={inter.className}>{children}</body>
     </html>
   );
