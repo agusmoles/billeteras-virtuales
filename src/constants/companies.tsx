@@ -4,7 +4,7 @@ export const COMPANIES = [
     image: "claro",
     color: "#D23D38",
     home: "https://claropay.com.ar",
-    tna: 45.63,
+    tna: 39.42,
     tnaPage: null,
     disclaimer: null,
     disclaimerIndex: null,
@@ -14,7 +14,7 @@ export const COMPANIES = [
     image: "mercadopago",
     color: "#05B9FF",
     home: "https://www.mercadopago.com.ar",
-    tna: 33.58,
+    tna: 31.76,
     tnaPage: "https://calculadora-mercadopago.com.ar/ganancias",
     disclaimer: (
       <>
@@ -23,8 +23,7 @@ export const COMPANIES = [
           href="https://calculadora-mercadopago.com.ar"
           target="_blank"
           rel="noopenner noreferrer"
-          style={{ textDecoration: "underline" }}
-          className="text-blue-500"
+          className="text-blue-500 underline"
         >
           Calculadora de MercadoPago
         </a>
@@ -50,7 +49,7 @@ export const COMPANIES = [
     home: "https://www.brubank.com/",
     tna: 37.0,
     tnaPage: null,
-    disclaimer: "A partir de los $750.000 remunera 24%",
+    disclaimer: "A partir de los $750.000 remunera 33%",
     disclaimerIndex: 7,
   },
   {
@@ -58,7 +57,7 @@ export const COMPANIES = [
     image: "personal",
     color: "#5A56FA",
     home: "https://www.personalpay.com.ar/cuentas-remuneradas",
-    tna: 37.6,
+    tna: 35.41,
     tnaPage: null,
     disclaimer:
       "Es la TNA para el nivel más bajo de la billetera, puede ser mayor según el nivel",
@@ -69,7 +68,7 @@ export const COMPANIES = [
     image: "prex",
     color: "#4D2597",
     home: "https://www.prexcard.com.ar/cuenta-remunerada",
-    tna: 45.63,
+    tna: 44.9,
     tnaPage: null,
     disclaimer: null,
     disclaimerIndex: null,
@@ -79,7 +78,7 @@ export const COMPANIES = [
     image: "supervielle",
     color: "#DE0409",
     home: "https://www.supervielle.com.ar/",
-    tna: 40.15,
+    tna: 40.88,
     tnaPage: null,
     disclaimer: null,
     disclaimerIndex: null,
@@ -100,7 +99,7 @@ export const COMPANIES = [
     image: "uala",
     color: "#D65A71",
     home: "https://www.uala.com.ar/",
-    tna: 41.98,
+    tna: 42.71,
     tnaPage: null,
     disclaimer: null,
     disclaimerIndex: null,
@@ -110,7 +109,7 @@ export const COMPANIES = [
     image: "tacataca",
     color: "#02D5B5",
     home: "https://www.taca-taca.com.ar/",
-    tna: 41.98,
+    tna: 33.58,
     tnaPage: null,
     disclaimer: "Sólo disponible en Córdoba",
     disclaimerIndex: 4,
@@ -120,7 +119,7 @@ export const COMPANIES = [
     image: "galicia",
     color: "#FA6400",
     home: "https://www.galicia.ar/personas",
-    tna: 36.87,
+    tna: 32.85,
     tnaPage: null,
     disclaimer: null,
     disclaimerIndex: null,
@@ -130,7 +129,7 @@ export const COMPANIES = [
     image: "astropay",
     color: "#27DEAF",
     home: "https://astropay.com/",
-    tna: 43.44,
+    tna: 36.14,
     tnaPage: null,
     disclaimer: null,
     disclaimerIndex: null,
@@ -140,7 +139,7 @@ export const COMPANIES = [
     image: "letsbit",
     color: "#45126B",
     home: "https://letsbit.io/",
-    tna: 41.98,
+    tna: 35.41,
     tnaPage: null,
     disclaimer: null,
     disclaimerIndex: null,
@@ -150,7 +149,7 @@ export const COMPANIES = [
     image: "lemoncash",
     color: "#01E664",
     home: "https://lemon.me",
-    tna: 37.0,
+    tna: 33.58,
     tnaPage: null,
     disclaimer: null,
     disclaimerIndex: null,
@@ -160,7 +159,7 @@ export const COMPANIES = [
     image: "cocospay",
     color: "#1C61DE",
     home: "https://cocos.capital/",
-    tna: 41.25,
+    tna: 36.14,
     tnaPage: null,
     disclaimer: null,
     disclaimerIndex: null,
@@ -173,7 +172,7 @@ export const COMPANIES = [
     tna: 35.0,
     tnaPage: null,
     disclaimer:
-      "Remunera el saldo hasta por $500.000 depositados, luego son 26% desde $500.001 hasta $1.500.000 y, finalmente, 24% desde $1.500.001 hasta $10.000.000",
+      "Remunera el saldo hasta por $500.000 depositados, luego son 27% desde $500.001 hasta $1.500.000 y, finalmente, 23% desde $1.500.001 hasta $10.000.000",
     disclaimerIndex: 6,
   },
   {
@@ -181,9 +180,10 @@ export const COMPANIES = [
     image: "fiwind",
     color: "#F8BF00",
     home: "https://www.fiwind.io/",
-    tna: 40.0,
+    tna: 37.0,
     tnaPage: null,
-    disclaimer: null,
-    disclaimerIndex: null,
+    disclaimer:
+      "Remunera el saldo hasta $750.000 depositados, luego igual al FCI de Delta Asset Management (igual que Personal Pay)",
+    disclaimerIndex: 8,
   },
 ].sort((a, b) => b.tna - a.tna);
